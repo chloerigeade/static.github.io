@@ -1,3 +1,103 @@
-h1 {
-  color: red;
+body{
+	font-family: arial;
+	text-align: center;
+	background: #f2709c;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.img0{
+	border: 10px solid red;
+	border-radius: 50%;
+	object-fit: cover;
+	height: 300px;
+	box-shadow: 5px 5px 10px black;
+}
+
+.img0:hover{
+	width: 400px;
+	height: 400px;
+
+}
+
+h1{
+	color:red;
+	font-size: 38px;
+}
+
+h2{
+	font-family: 'Amatic SC', cursive;
+}
+p{
+	font-size: 24px;
+}
+
+a{
+	text-decoration: none;
+	background: red;
+	color: white;
+}
+a:hover{
+	background: black;
+}
+ul, h3{
+	text-align: left;
+}
+
+.cadre{
+	border:10px solid red;
+	background: white;
+	margin: 150px;
+	padding: 50px;
+
+}
+
+
+.navbar{
+	background: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+	.logo{
+		height: 100px;
+	}
+
+	.links{
+		width: 50%;
+		display: flex;
+		justify-content: space-around;
+	}
+	.link{
+		background: white;
+		color: black;
+	}
+
+	.icon{
+		color: red;
+		font-size: 34px;
+	}
+
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
